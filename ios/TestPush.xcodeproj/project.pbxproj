@@ -678,6 +678,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cd.pushy;
 				PRODUCT_NAME = TestPush;
 			};
 			name = Debug;
@@ -700,6 +701,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cd.pushy;
 				PRODUCT_NAME = TestPush;
 			};
 			name = Release;
