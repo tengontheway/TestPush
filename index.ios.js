@@ -12,7 +12,8 @@ import {
     View,
     Alert,
     TouchableOpacity,
-    Platform
+    Platform,
+    Image,
 } from 'react-native';
 
 import _updateConfig from './update.json'
@@ -29,6 +30,8 @@ import {
     switchVersionLater,
     markSuccess,
 } from 'react-native-update';
+
+import TextEx from './js/TextEx'
 
 
 class TestPush extends Component {
@@ -79,8 +82,12 @@ class TestPush extends Component {
     return (
         <View style={styles.container}>
             <Text style={styles.welcome}>
-                欢迎使用热更新服务
+                最新版本
             </Text>
+
+            <TextEx />
+
+            <Image source={require('./img/head_small.jpeg')} />
 
             <Text style={styles.instructions}>
                 这是版本一 {'\n'}
